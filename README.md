@@ -1,25 +1,16 @@
-# 🎈 Blank app template
+ # 🏪 Smart Canteen Ordering System
 
-A simple Streamlit app template for you to modify!
+👉 **[Click here to visit the site](https://canteen-terminal-gsecnqmd4fobv8igpg9pew.streamlit.app/)**
 
-[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://blank-app-template.streamlit.app/)
+A dynamic, web-based canteen terminal application built with Python and Streamlit. This application allows users to browse menus by category, manage a live shopping cart, and automatically calculate dynamic bills based on student profiles.
 
-### How to run it on your own machine
+## ✨ Features
+* 🍗 **Hierarchical Menu:** Organized nested dictionary containing multiple food and drink categories.
+* 🛒 **Live Invoice Cart:** Interactive backend memory that tracks items as you add them.
+* 🧾 **Dynamic Discount Processing:** Automatically applies specific discounts for Hosteler and Day Scholar student statuses.
 
-Prerequisite: install `uv` if you don't already have it.
-
-```
-$ curl -LsSf https://astral.sh/uv/install.sh | sh
-```
-
-1. Sync the dependencies
-
-   ```
-   $ uv sync
-   ```
-
-2. Run the app
-
-   ```
-   $ uv run streamlit run streamlit_app.py
-   ```
+## 🚀 Technical Stack
+* **Language:** Python
+* **Framework:** Streamlit
+* **Deployment:** Streamlit Cloud
+  
